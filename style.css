@@ -425,8 +425,7 @@ img {
 .famous__location i {
   font-size: 1rem;
 }
-
-/*=============== EXPLORE ===============*/
+/* explore */
 .explore {
   position: relative;
 
@@ -464,9 +463,10 @@ img {
   row-gap: 2.5rem;
  
 }
-.explore__data{
-  margin-top:30%;
-}
+ .explore__data{
+  margin-top: -30%;
+  color: #fff;
+} 
 .explore__user {
   display: inline-flex;
   align-items: center;
