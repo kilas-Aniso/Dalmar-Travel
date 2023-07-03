@@ -69,13 +69,13 @@ window.addEventListener('scroll', scrollActive)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 500,
-    delay: 100,
+    duration: 300,
+    delay: 70,
     // reset: true // Animations repeat
 })
 
 sr.reveal(`.home__data, .explore__data, .explore__user, .footer__container`)
-sr.reveal(`.home__card`, {delay: 300, distance: '100px', interval: 50})
+sr.reveal(`.home__card`, {delay: 200, distance: '100px', interval: 30})
 sr.reveal(`.about__data, .join__image`, {origin: 'right'})
 sr.reveal(`.about__image, .join__data`, {origin: 'left'})
-sr.reveal(`.famous__card`, {interval: 200})
+sr.reveal(`.famous__card`, {interval: 60})
