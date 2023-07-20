@@ -4,7 +4,6 @@
 :root {
   --header-height: 3.5rem;
 
-/* ---------------colors --------------- */
   --title-color: hsl(229, 38%, 6%);
   --text-color: hsl(180, 10%, 8%);
   --text-color-light: hsl(240, 83%, 19%);
@@ -14,7 +13,6 @@
                     hsla(0, 0%, 0%, 0) 50%, 
                     hsl(0, 0%, 0%) 125%);
 
-  /* ----------------fonts ----------------- */
   
   --body-font: "Poppins", sans-serif;
   --second-font: "Montserrat", sans-serif;
@@ -26,12 +24,10 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /* --------------------font weight ---------------- */
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /* ------------------------z -index ------------ */
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -95,7 +91,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* ------------------common classes ------------- */
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -117,10 +112,9 @@ img {
 }
 
 .main {
-  overflow: hidden; /* For animation ScrollReveal */
+  overflow: hidden; 
 }
 
-/* -------------------Nav section --------------------- */
 .header {
   position: fixed;
   width: 100%;
@@ -151,7 +145,6 @@ img {
   cursor: pointer;
 }
 
-/* Navigation for mobile devices */
 @media screen and (max-width: 1023px) {
   .nav__menu {
     position: fixed;
@@ -206,7 +199,6 @@ img {
   top: 0;
 }
 
-/* -----------------blur header ------------------- */
 .blur-header::after {
   content: "";
   position: absolute;
@@ -626,7 +618,6 @@ img {
   background-color: hsl(0, 0%, 30%);
 }
 
-/*=============== SCROLL UP ===============*/
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -651,7 +642,6 @@ img {
   bottom: 3rem;
 }
 
-/*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
   .container {
